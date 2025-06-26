@@ -4,7 +4,7 @@ import tempfile
 
 app = FastAPI()
 #model = whisper.load_model("base")
-model = whisper.load_model("large")
+model = whisper.load_model("medium")
 
 
 #@app.post("/transcribe")
